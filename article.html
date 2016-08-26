@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles360.css">
+    <title>Randstad - Gran Abrazo.</title>
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-default navbar-fixed-top randstad-blue">
+        <!-- Creamos un container para el NavBar -->
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                </button>
+
+                <!-- Ponemos el Logo de Randstad con el link para volver al Home-->
+                <a class="navbar-brand">
+                    <img alt="Randstad-Logo" src="imgs/randstad-brand-logo.png">
+                </a>
+                <!-- Cerramos el Div del Logo -->
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="collapse">
+                <!-- Ponemos los links principales -->
+                <ul class="nav navbar-nav">
+                    <li><a href="#social">social</a></li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">laboral<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="laboral/areas-funcionales.html"><i class="fa fa-sitemap"></i> areas funcionales</a></li>
+                            <li><a href="laboral/quienes-somos.html"><i class="fa fa-info"></i>  quienes somos</a></li>
+                            <li><a href="laboral/proximos-eventos.html"><i class="fa fa-calendar"></i> eventos</a></li>
+                            <li><a href="laboral/catalogo-de-productos.html"><i class="fa fa-shopping-cart"></i> catalogo de productos</a></li>
+                            <li><a href="laboral/agenda-de-contactos.html"><i class="fa fa-user"></i> agenda</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">sistemas<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="#"><i class="fa fa-money"></i> aramis</a></li>
+                            <li><a href="https://sugus.randstad.com.ar/login.aspx"><i class="fa fa-inbox"></i> sugus</a></li>
+                            <li><a href="https://www.randstad.com.ar/sugar5/index.php?action=Login&module=Users&login_module=Home&login_action=index"><i class="fa fa-money"></i> fenix</a></li>
+                            <li><a href="http://randstad.educativa.com/acceso.cgi?id_curso="><i class="fa fa-inbox"></i> formación</a></li>
+                            <li><a href="http://www.randstad.com.ar"><i class="fa fa-inbox"></i> Randstad Web</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li><a href="#social">documentos</a></li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">excelencia<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="laboral/areas-funcionales.html"><i class="fa fa-smile-o"></i> beneficios</a></li>
+                            <li><a href="laboral/quienes-somos.html"><i class="fa fa-cloud"></i>  clima laboral</a></li>
+                            <li><a href="laboral/proximos-eventos.html"><i class="fa fa-question-circle"></i> trivia</a></li>
+                            <li><a href="laboral/agenda-de-contactos.html"><i class="fa fa-video-camera"></i> video charlas</a></li>
+                            <li><a href="laboral/proximos-eventos.html"><i class="fa fa-hand-paper-o"></i> voluntariado</a></li>
+                            <li><a href="laboral/catalogo-de-productos.html"><i class="fa fa-heart"></i> randstad y vos</a></li>
+                            <li><a href="laboral/agenda-de-contactos.html"><i class="fa fa-graduation-cap"></i> practicas de excelencia</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+
+
+
+
+                <!-- Ponemos el Buscador y el boton de la lupita -->
+                <form class="navbar-form navbar-left">
+                    <div class="input-group">
+                        <input type="text" class="form-control buscador" placeholder="Buscar personas, documentos, eventos" style="width:400px;">
+                        <span class="input-group-btn">
+                          <button type="submit" class="btn btn-default" aria-label="search">
+                              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                        </span>
+                    </div>
+                </form>
+                <!-- Foto de perfil y Nombre de Usuario -->
+                <!--
+                <p class="navbar-text"><img src="imgs/profilepic.jpg" alt="..." style="width:22px; height:22px"> Luis Bellani <span class="badge"> 3 </span></a>
+                </p> -->
+                <!-- Cierra la foto de perfil y nombre de usuario -->
+
+                <!-- Menu Desplegable de Accesos -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="imgs/profilepic.jpg" alt="..." style="width:22px; height:22px"> Luis Bellani. <span class="badge">3</span><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <input type="text" class="form-control" placeholder="Ingresa tu estado.">
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><i class="fa fa-money"></i> recibos de sueldo</a></li>
+                            <li><a href="#"><i class="fa fa-inbox"></i> mensajes</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><i class="fa fa-heart"></i> favoritos</a></li>
+                        </ul>
+                    </li>
+                    <!-- Cerramos el Menu desplegable! -->
+                </ul>
+                <!-- Cerramos el Collapse -->
+            </div>
+            <!-- Cerramos el Container Fluid -->
+        </div>
+        <!-- Cerramos el NavBar -->
+    </nav>
+    <div class="container-fluid">
+        <!-- ABRIMOS EL BANNER DEL TOP -->
+        <div class="row">
+            <img src="imgs/bannerTop2.png">
+        </div>
+        <!-- CERRAMOS EL BANNER DEL TOP -->
+    </div>
+    <!-- CERRAMOS EL CONTAINER FLUID DEL BREADCRUMP-->
+    <div class="container-fluid">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Equipo Markcomm</a></li>
+                <li class="active">Nuevas Oficinas</li>
+            </ol>
+            <!-- CERRAMOS EL ROW -->
+        </div>
+        <!-- CERRAMOS EL CONTAINER FLUID -->
+    </div>
+    <!-- navegador de siguiente y anterior articulo -->
+
+
+    <!-- Arranca el contenido del sitio -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- CREAMOS LA COLUMNA CENTRAL PARA EL CONTENIDO -->
+            <div class="col-lg-9 md-9 sm-6">
+                <!-- DEFINIMOS EL TITULO DEL ARTICULO -->
+                <h1 class="titulo-articulo">Conocé las nuevas oficinas de Randstad Prof. en Vicente Lopez.</h1>
+                <!-- ACÁ VAN LAS METRICAS SOCIALES, SHARES, ETC-->
+                <div class="socialMetrics">
+                    <!--ACA PONEMOS LOS SNIPPETS -->
+                </div>
+                <!--ACA PONEMOS EL CONTENIDO DEL ARTICULO -->
+                <div class="article-content">
+                    <div class="article-media">
+                        <!-- ACA PONEMOS LA IMAGEN PRINCIPAL DEL ARTICULO -->
+                        <div class="thumbnail foto-articulos">
+                            <img src="imgs/art10.jpg" style="width:100%;" alt="...">
+                        </div>
+                    </div>
+                    <div class="article-text">
+                        <!-- ACA PONEMOS el texto del articulo -->
+                        <p>The original subscription service needs a lifeline.</p>
+                        <br>
+
+                        <p>Birchbox, the once-buzzy beauty startup, raised $15 million in additional funding from current investors in an effort to stave off a cash flow problem, Recode reported.</p>
+                        <br>
+
+                        <p>The money is needed to shore up the company after two rounds of layoffs this year and a $60 million investment in 2014 that pressured the startup to operate at a higher level than it was quite prepared for.</p>
+                        <br>
+                        <br>
+                        <p><strong class="recomendados">LEÉ EN T360: <span class="titulo-recomendados">Randstad presentó las empresas más atractivas para trabajar en Argentina...</span></strong> </p>
+                        <br>
+                        <p>The company, founded in 2010, was the first to master the subscription service, offering samples of beauty products for a $10 monthly fee. Subscribers could then buy full-size versions of the products through Birchbox's website.</p>
+                        <br>
+
+                        <p>Since 2010, the subscription service model has taken off, with Dollar Shave Club's $1 billion acquisition as the most recent success story.</p>
+                        <br>
+
+                        <p>Meanwhile, Birchbox exploded until it had to cut back. Now, it's focusing on reaching profitability.</p>
+                        <br>
+
+                        <p>“Obviously, 2016 has been a very hard year from many perspectives,” Birchbox co-founder and CEO Katia Beauchamp told Recode. “But the idea is to be in control of our own destiny, and now we’ll be able to become profitable very
+                            soon and going forward." </p>
+                        <br>
+
+                        <img src="imgs/art2.jpg" style="width:100%" alt="...">
+
+                        <p>The original subscription service needs a lifeline.</p>
+                        <br>
+
+                        <p>Birchbox, the once-buzzy beauty startup, raised $15 million in additional funding from current investors in an effort to stave off a cash flow problem, Recode reported.</p>
+                        <br>
+
+                        <p>The money is needed to shore up the company after two rounds of layoffs this year and a $60 million investment in 2014 that pressured the startup to operate at a higher level than it was quite prepared for.</p>
+                        <br>
+
+                        <p>The company, founded in 2010, was the first to master the subscription service, offering samples of beauty products for a $10 monthly fee. Subscribers could then buy full-size versions of the products through Birchbox's website.</p>
+                        <br>
+
+                        <p>Since 2010, the subscription service model has taken off, with Dollar Shave Club's $1 billion acquisition as the most recent success story.</p>
+                        <br>
+
+                        <p>Meanwhile, Birchbox exploded until it had to cut back. Now, it's focusing on reaching profitability.</p>
+                        <br>
+
+                        <p>“Obviously, 2016 has been a very hard year from many perspectives,” Birchbox co-founder and CEO Katia Beauchamp told Recode. “But the idea is to be in control of our own destiny, and now we’ll be able to become profitable very
+                            soon and going forward." </p>
+                        <br>
+                        <!-- CERRAMOS EL ARTICLE -->
+
+                        <!-- ACA PONEMOS LAS NOTAS RELACIONADAS PARA QUE SIGAN LEYENDO -->
+                        <div class="row-fluid articles-row">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="thumbnail articulos-relacionados">
+                                    <img src="imgs/art1.jpg" alt="...">
+                                    <div class="caption caption-relacionadas">
+                                        <h3>10 tips para tener una gran entrevista laboral</h3>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4">
+                                <div class="thumbnail articulos-relacionados">
+                                    <img src="imgs/art1.jpg" alt="...">
+                                    <div class="caption caption-relacionadas">
+                                        <h3>10 tips para tener una gran entrevista laboral</h3>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="thumbnail articulos-relacionados">
+                                    <img src="imgs/art1.jpg" alt="...">
+                                    <div class="caption caption-relacionadas">
+                                        <h3>10 tips para tener una gran entrevista laboral</h3>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- segunda fila...-->
+                        <div class="row-fluid articles-row">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="thumbnail articulos-relacionados">
+                                    <img src="imgs/art1.jpg" alt="...">
+                                    <div class="caption caption-relacionadas">
+                                        <h3>10 tips para tener una gran entrevista laboral</h3>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="thumbnail articulos-relacionados">
+                                    <img src="imgs/art1.jpg" alt="...">
+                                    <div class="caption caption-relacionadas">
+                                        <h3>10 tips para tener una gran entrevista laboral</h3>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="thumbnail articulos-relacionados">
+                                    <img src="imgs/art1.jpg" alt="...">
+                                    <div class="caption caption-relacionadas">
+                                        <h3>10 tips para tener una gran entrevista laboral</h3>
+                                        <p>...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CERRAMOS LA COLUMNA CENTRAL -->
+                </div>
+
+                <!--aca -->
+
+
+
+
+
+
+
+
+
+                <!-- ACA EMPIEZA LA COLUMNA DERECHA -->
+            </div>
+            <div class="col-lg-3 md-3 sm-6 rightBar">
+                <!-- Cerramos la columna derecha! -->
+            </div>
+            <!-- CERRAMOS EL ROW -->
+        </div>
+        <!-- CERRAMOS EL CONTAINER FLUID -->
+    </div>
+    <!-- Articulos relacionados -->
+
+
+
+    <!-- Ponemos las notas relacionadas... -->
+
+    <!-- Segunda fila de notas relacionadas -->
+
+
+
+    <!-- CERRAMOS EL BODY -->
+</body>
+<!-- CERRAMOS EL HTML -->
+
+</html>

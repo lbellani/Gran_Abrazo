@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,300,900|Lato|Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles360.css">
+    <title>Randstad - Gran Abrazo.</title>
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- Creamos un container para el NavBar -->
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!-- Ponemos el Logo de Randstad con el link para volver al Home-->
+                <a class="navbar-brand" href="../Testingindex.html">
+                    <img alt="Randstad-Logo" src="imgs/randstad-brand-logo.png">
+                </a>
+                <!-- Cerramos el Div del Logo -->
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="collapse">
+                <!-- Ponemos los links principales -->
+                <ul class="nav navbar-nav">
+                    <li><a href="#social">social</a></li>
+                </ul>
+                  <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">laboral<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+
+                        <li><a href="laboral/areas-funcionales.html"><i class="fa fa-money"></i> areas funcionales</a></li>
+                        <li><a href="laboral/quienes-somos.html"><i class="fa fa-inbox"></i> quienes somos</a></li>
+                        <li><a href="laboral/proximos-eventos.html"><i class="fa fa-money"></i> eventos</a></li>
+                        <li><a href="laboral/catalogo-de-productos.html"><i class="fa fa-inbox"></i> catalogo</a></li>
+                        <li><a href="#"><i class="fa fa-money"></i> agenda</a></li>
+                    </ul>
+                </li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">sistemas<span class="caret"></span></a>
+  <ul class="dropdown-menu">
+
+      <li><a href="#"><i class="fa fa-money"></i> aramis</a></li>
+      <li><a href="https://sugus.randstad.com.ar/login.aspx"><i class="fa fa-inbox"></i> sugus</a></li>
+      <li><a href="https://www.randstad.com.ar/sugar5/index.php?action=Login&module=Users&login_module=Home&login_action=index"><i class="fa fa-money"></i> fenix</a></li>
+      <li><a href="http://randstad.educativa.com/acceso.cgi?id_curso="><i class="fa fa-inbox"></i> formación</a></li>
+      <li><a href="http://www.randstad.com.ar"><i class="fa fa-inbox"></i> Randstad Web</a></li>
+
+  </ul>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+    <li><a href="#social">documentos</a></li>
+</ul>
+<ul class="nav navbar-nav">
+    <li><a href="#social">excelencia</a></li>
+</ul>
+
+
+
+
+
+
+                <!-- Ponemos el Buscador y el boton de la lupita -->
+                <form class="navbar-form navbar-left">
+                    <div class="input-group">
+                        <input type="text" class="form-control buscador" placeholder="Buscar personas, documentos, eventos" style="width:400px;">
+                        <span class="input-group-btn">
+                          <button type="submit" class="btn btn-default" aria-label="search">
+                              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                        </span>
+                    </div>
+                </form>
+                <!-- Foto de perfil y Nombre de Usuario -->
+                <!--
+                <p class="navbar-text"><img src="imgs/profilepic.jpg" alt="..." style="width:22px; height:22px"> Luis Bellani <span class="badge"> 3 </span></a>
+                </p> -->
+                <!-- Cierra la foto de perfil y nombre de usuario -->
+
+                <!-- Menu Desplegable de Accesos -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="imgs/profilepic.jpg" alt="..." style="width:22px; height:22px"> Luis Bellani. <span class="badge">3</span><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <input type="text" class="form-control" placeholder="Ingresa tu estado.">
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><i class="fa fa-money"></i> recibos de sueldo</a></li>
+                            <li><a href="#"><i class="fa fa-inbox"></i> mensajes</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><i class="fa fa-heart"></i> favoritos</a></li>
+                        </ul>
+                    </li>
+                    <!-- Cerramos el Menu desplegable! -->
+                </ul>
+                <!-- Cerramos el Collapse -->
+            </div>
+            <!-- Cerramos el Container Fluid -->
+        </div>
+        <!-- Cerramos el NavBar -->
+    </nav>
+    <div class="container-fluid">
+        <!-- Arranca el Banner TOP -->
+        <div class="row banner-top">
+            <div class="col-sm-8 col-hidden-xs">
+                <!--Meto un jumbotron aca para los titulares o algo con js? -->
+            </div>
+            <div class="col-sm-4 col-hidden-xs">
+
+            </div>
+            <!-- Termina el Banner TOP -->
+        </div>
+    </div>
+    <div>  <ol class="breadcrumb">
+    <li>Gran Abrazo</a></li>
+    <li class="active">Home</a></li>
+  </ol>
+  </div>
+    <!-- Arranca el contenido del sitio -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- ARRANCA EL CONTENIDO DE LA IZQUIERDA ! -->
+            <div class="col-sm-6 left-side">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Sub columna izquierda en Left Section -->
+                        <div class="col-sm-5 leftBar">
+                            <h5 class="header1">Lo último en Tendencias 360º</h5>
+
+                            <!-- izq -->
+                            <div class="media">
+                                <!-- Alineamos la foto hacia la izquierda-->
+                                <div class="media-left">
+                                    <a href="#">
+                                        <!-- Agregamos la Foto -->
+                                        <img class="media-object" src="imgs/leftImg1.jpg" width="64px" height="64px" alt="...">
+                                    </a>
+                                </div>
+                                <!-- Titular -->
+                                <div class="media-body">
+                                    <h5 class="media-heading">Tips de empleabilidad</h5> ...
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="imgs/leftImg2.jpg" width="64px" height="64px" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">Como planificar reuniones efectivas</h5> ...
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="imgs/leftImg3.jpg" width="64px" height="64px" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">Diversidad etaria. Un factor crítico para los argentinos</h5> ...
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="imgs/leftImg4.jpg" width="64px" height="64px" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">Randstad presentó las empresas más atractivas para trabajas en Argentina</h5> ...
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="imgs/leftImg5.jpg" width="64px" height="64px" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">El rol de los mandos medios. Por Andres Avila</h5> ...
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="imgs/leftImg6.jpg" width="64px" height="64px" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">No dejes para mañana lo que puedes hacer hoy. ¿O si?</h5> ...
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="imgs/leftImg7.jpg" width="64px" height="64px" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">Apuntes para la recuperación de las tasas de empleo</h5> ...
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="imgs/leftImg8.jpg" width="64px" height="64px" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">Recursos humanos desde la óptica de Google</h5> ...
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="imgs/leftImg9.jpg" width="64px" height="64px" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">Media heading</h5> ...
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="imgs/leftImg10.jpg" width="64px" height="64px" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">Media heading</h5> ...
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Sub columna derecha en Left Section -->
+                        <div class="col-sm-7 right-side">
+                            <h5 class="header2">Need to know!</h5>
+                            <div class="thumbnail">
+                                <img src="imgs/art5.jpg" alt="...">
+                                <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <p><i class="fa fa-heart-o" aria-hidden="true"></i> <i class="fa fa-share" aria-hidden="true"></i></p>
+
+                                </div>
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Arranca el contenido del centro -->
+
+
+            <div class="col-sm-6 rightBar">
+                <h5 class="header3">Noticias y novedades</h5>
+                <!-- Titulo de la sección -->
+
+                <!-- Nuevo articulo -->
+                <div class="thumbnail">
+                    <a href="article.html"><img src="imgs/art2.jpg" style="width:100%" alt="..."></a>
+                    <div class="caption post-content">
+                        <h5>Equipo MarkComm</h5>
+                        <h3>Lanzamos el nuevo Gran Abrazo. Todo lo que necesitas saber está acá!</h3>
+                        <p>Enterate de todas las nuevas funcionalidades de la intranet de Randstad Argentina...</p>
+                        <p><i class="fa fa-heart-o" aria-hidden="true"></i> <i class="fa fa-share" aria-hidden="true"></i></p>
+                    </div>
+                </div>
+                <br>
+                <div class="thumbnail">
+                    <img src="imgs/art1.jpg" style="width:100%" alt="...">
+                    <div class="caption post-content">
+                        <h5>Capital Humano</h5>
+                        <h3>¿Te gustaría ser director por un día junto a Juan Pablo Lara?</h3>
+                        <p>El 26 de julio, te proponemos acompañar a Juan Pablo Lara, CFO de nuestra compañía, durante toda una jornada de trabajo....</p>
+                    </div>
+                </div>
+                <br>
+                <!-- Inicio del contenido central a dos columnas -->
+
+
+
+
+                <!--Fin de la columna central... -->
+                <!-- !!!!!!!! -->
+            </div>
+
+
+
+
+
+</body>
+
+</html>

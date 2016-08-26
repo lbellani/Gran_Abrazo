@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,300,900|Lato|Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/styles360.css">
+    <title>Randstad - Gran Abrazo.</title>
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- Creamos un container para el NavBar -->
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!-- Ponemos el Logo de Randstad con el link para volver al Home-->
+                <a class="navbar-brand" href="../Testingindex.html">
+                    <img alt="Randstad-Logo" src="../imgs/randstad-brand-logo.png">
+                </a>
+                <!-- Cerramos el Div del Logo -->
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="collapse">
+                <!-- Ponemos los links principales -->
+                <ul class="nav navbar-nav">
+                    <li><a href="#social">social</a></li>
+                </ul>
+                  <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">laboral<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+
+                      <li><a href="areas-funcionales.html"><i class="fa fa-money"></i> areas funcionales</a></li>
+                      <li><a href="quienes-somos.html"><i class="fa fa-inbox"></i> quienes somos</a></li>
+                      <li><a href="proximos-eventos.html"><i class="fa fa-money"></i> eventos</a></li>
+                      <li><a href="catalogo-de-productos.html"><i class="fa fa-inbox"></i> catalogo</a></li>
+                      <li><a href="agenda-de-contactos.html"><i class="fa fa-money"></i> agenda</a></li>
+                    </ul>
+                </li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">sistemas<span class="caret"></span></a>
+  <ul class="dropdown-menu">
+
+      <li><a href="#"><i class="fa fa-money"></i> aramis</a></li>
+      <li><a href="#"><i class="fa fa-inbox"></i> sugus</a></li>
+      <li><a href="#"><i class="fa fa-money"></i> fenix</a></li>
+      <li><a href="#"><i class="fa fa-inbox"></i> formación</a></li>
+  </ul>
+</li>
+</ul>
+<ul class="nav navbar-nav">
+    <li><a href="#social">documentos</a></li>
+</ul>
+<ul class="nav navbar-nav">
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">excelencia<span class="caret"></span></a>
+  <ul class="dropdown-menu">
+
+      <li><a href="laboral/areas-funcionales.html"><i class="fa fa-sitemap"></i> beneficios</a></li>
+      <li><a href="laboral/quienes-somos.html"><i class="fa fa-info"></i>  clima laboral</a></li>
+      <li><a href="laboral/proximos-eventos.html"><i class="fa fa-calendar"></i> trivia</a></li>
+      <li><a href="laboral/agenda-de-contactos.html"><i class="fa fa-user"></i> video charlas</a></li>
+      <li><a href="laboral/proximos-eventos.html"><i class="fa fa-calendar"></i> voluntariado</a></li>
+      <li><a href="laboral/catalogo-de-productos.html"><i class="fa fa-shopping-cart"></i> randstad y vos</a></li>
+      <li><a href="laboral/agenda-de-contactos.html"><i class="fa fa-user"></i> practicas de excelencia</a></li>
+  </ul>
+</li>
+</ul>
+
+
+
+
+
+
+                <!-- Ponemos el Buscador y el boton de la lupita -->
+                <form class="navbar-form navbar-left">
+                    <div class="input-group">
+                        <input type="text" class="form-control buscador" placeholder="Buscar personas, documentos, eventos" style="width:400px;">
+                        <span class="input-group-btn">
+                          <button type="submit" class="btn btn-default" aria-label="search">
+                              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                        </span>
+                    </div>
+                </form>
+                <!-- Foto de perfil y Nombre de Usuario -->
+                <!--
+                <p class="navbar-text"><img src="../imgs/profilepic.jpg" alt="..." style="width:22px; height:22px"> Luis Bellani <span class="badge"> 3 </span></a>
+                </p> -->
+                <!-- Cierra la foto de perfil y nombre de usuario -->
+
+                <!-- Menu Desplegable de Accesos -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="../imgs/profilepic.jpg" alt="..." style="width:22px; height:22px"> Luis Bellani. <span class="badge">3</span><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <input type="text" class="form-control" placeholder="Ingresa tu estado.">
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><i class="fa fa-money"></i> recibos de sueldo</a></li>
+                            <li><a href="#"><i class="fa fa-inbox"></i> mensajes</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><i class="fa fa-heart"></i> favoritos</a></li>
+                        </ul>
+                    </li>
+                    <!-- Cerramos el Menu desplegable! -->
+                </ul>
+                <!-- Cerramos el Collapse -->
+            </div>
+            <!-- Cerramos el Container Fluid -->
+        </div>
+        <!-- Cerramos el NavBar -->
+    </nav>
+    <div class="container-fluid">
+        <!-- Arranca el Banner TOP -->
+        <div class="row banner-areas-funcionales">
+            <div class="col-sm-8 col-hidden-xs">
+                <!--Meto un jumbotron aca para los titulares o algo con js? -->
+            </div>
+            <div class="col-sm-4 col-hidden-xs">
+
+            </div>
+            <!-- Termina el Banner TOP -->
+        </div>
+
+    </div>
+    <!-- Abrimos el Breadcrumb -->
+  <div>  <ol class="breadcrumb">
+  <li><a href="#">Gran Abrazo</a></li>
+  <li><a href="#">Laboral</a></li>
+  <li class="active">Áreas Funcionales</li>
+</ol>
+<!-- Cerramos el Breadcrumb -->
+</div>
+    <!-- Arranca el contenido del sitio -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- ARRANCA EL CONTENIDO DE LA IZQUIERDA ! -->
+            <div class="col-sm-2 leftBar">
+              
+
+<div class="btn-group-vertical " role="toolbar" aria-label="...">
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-money" aria-hidden="true"></i> administración y finanzas</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-flag" aria-hidden="true"></i> argentina llego a Randstad</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-search" aria-hidden="true"></i> calidad</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-phone" aria-hidden="true"></i> call center</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-users" aria-hidden="true"></i> capital humano</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-male" aria-hidden="true"></i> comercial</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-calculator" aria-hidden="true"></i> contabilidad y control de gestión</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> control interno / gestión laboral</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-suitcase" aria-hidden="true"></i> directorio</button>
+
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-building" aria-hidden="true"></i> empleo y rrhh en los medios</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-legal" aria-hidden="true"></i> legales</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-desktop" aria-hidden="true"></i> marketing y comunicación</button>
+
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-line-chart" aria-hidden="true"></i> operaciones</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-globe" aria-hidden="true"></i> rse</button>
+
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-commenting" aria-hidden="true"></i> Randstad</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-flag-o" aria-hidden="true"></i> Randstad Uruguay</button>
+
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-check-square-o" aria-hidden="true"></i> seguridad e higiene</button>
+  <button type="button" class="btn btn-default botones-areas"><i class="fa fa-at" aria-hidden="true"></i> sistemas</button>
+</div>
+                        <!-- Sub columna derecha en Left Section -->
+
+            </div>
+            <!-- Arranca el contenido del centro -->
+            <div class="col-sm-10 rightBar">
+              <h3 class="centro-funcionales">Seleccione el área de la empresa.</h3>
+</div>
+
+</body>
+
+</html>
